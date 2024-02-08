@@ -101,7 +101,7 @@ in my case the JWT token structure is here:
 |PAYLOAD|{"iss":"http://jakarta.ctf.protergo.party:10003/api/portal_login","iat":1707426564,"exp":1707430164,"nbf":1707426564,"jti":"TiPPm7pgqoKWerqa","sub":"35","prv":"3da04507aadf132cee732fdee4ef6aa390dec579","is_admin":0}|
 |SIGNATURE|UNPRINTABLE ASCII CHAR|
 
-### EXPSOOLLOITATION
+### EXPLOITATION
 Since we got all information we needed
 
 the target for this exploitation is change **"is_admin":0** to **"is_admin":1** in the JWT token
