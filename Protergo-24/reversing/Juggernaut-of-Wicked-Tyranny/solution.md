@@ -356,6 +356,6 @@ now we can set env JWT_PASSPHRASE=693e62c63cbc55a7d5cb3e7047daeaea
 
 then run the project and trigger GET / to create the private key
 after obtaining the private key we can craft JWT Token
-refers to this [Writeup](/Protergo-24/web/Just-Wiggle-Tools)
+refers to this [Writeup](/Protergo-24/web/Just-Wiggle-Tools/solution.md)
 
 flag: **PROTERGO{673311e2d939238eaa08e461b0f4be5928293e26ac16ada1b5dbfed335c544b7}**
