@@ -47,7 +47,6 @@ def upload():
 
 ```text
 We're able to override templates/register.html using the vuln
-
 and the next vuln will explain why we can use SSTI in this server
 ```
 
