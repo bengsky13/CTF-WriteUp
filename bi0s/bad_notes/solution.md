@@ -46,8 +46,9 @@ def upload():
 ```
 
 ```text
-We're able to override templates/register.html using the vuln, and the 
-next vuln will explain why we can use SSTI in this server
+We're able to override templates/register.html using the vuln
+
+and the next vuln will explain why we can use SSTI in this server
 ```
 
 ```py
@@ -75,16 +76,21 @@ def register():
 ```
 
 ```text
-render_template will save the content of the file after executed, so if the render_template executed, everytime the file was edited its not affected the last content of the file
+render_template will save the content of the file after executed
+so if the render_template executed, everytime the file was edited its not
+affected the last content of the file
 
 
 we can see render_template will executed if some condition,
 1. if rows: ( if the username exists)
 2. if request.method is not POST
 
-but if the request.method is POST and username is not exist, the server directly go to /login, then the render_template of register.html never executed
+but if the request.method is POST and username is not exist, the server
+directly go to /login, then the render_template of register.html never
+executed
 
-therefore we can override the register.html then trigger the render_template('register.html') after we override the file
+therefore we can override the register.html then trigger the
+render_template('register.html') after we override the file
 ```
 
 ## SOLUTION
