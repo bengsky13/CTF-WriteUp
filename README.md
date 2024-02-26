@@ -8,3 +8,4 @@ Authors @bengsky
 
 - [BxM CTF 2023](BxM-23)
 - [2024 Protergo CTF](Protergo-24)
+- [bi0sCTF 2024 - Bad Notes](bi0s/bad_notes/solution.md)
